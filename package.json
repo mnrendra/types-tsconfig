@@ -1,6 +1,6 @@
 {
   "name": "@mnrendra/types-tsconfig",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "TSConfig interface to validate tsconfig.json value.",
   "private": false,
   "types": "dist/index.d.ts",
