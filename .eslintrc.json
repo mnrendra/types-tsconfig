@@ -15,6 +15,7 @@
       "ignoreUrls": true,
       "ignoreTemplateLiterals": true,
       "ignoreStrings": true
-    }]
+    }],
+    "@typescript-eslint/no-empty-interface": "warn"
   }
 }

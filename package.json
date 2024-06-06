@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/mnrendra/types-tsconfig#readme",
   "dependencies": {
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.5"
   },
   "devDependencies": {
     "@semantic-release/exec": "^6.0.3",
@@ -37,9 +37,9 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",
-    "rollup": "^4.13.0",
+    "rollup": "^4.17.2",
     "rollup-plugin-dts": "^6.1.0",
-    "semantic-release": "^23.0.2"
+    "semantic-release": "^23.1.1"
   },
   "keywords": [
     "tsconfig",
