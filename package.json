@@ -1,0 +1,55 @@
+{
+  "name": "@mnrendra/types-tsconfig",
+  "version": "0.0.0-development",
+  "description": "TSConfig interface to validate tsconfig.json value.",
+  "private": false,
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && npx rollup -c",
+    "commit": "npx cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnrendra/types-tsconfig.git"
+  },
+  "author": {
+    "name": "Muhammad Rendra",
+    "email": "mnrendra@users.noreply.github.com",
+    "url": "https://github.com/mnrendra"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnrendra/types-tsconfig/issues"
+  },
+  "homepage": "https://github.com/mnrendra/types-tsconfig#readme",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "clean-package": "^2.2.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "rollup": "^4.17.2",
+    "rollup-plugin-dts": "^6.1.0",
+    "semantic-release": "^23.1.1"
+  },
+  "keywords": [
+    "tsconfig",
+    "json",
+    "type",
+    "types",
+    "interface",
+    "interfaces",
+    "typescript",
+    "type-tsconfig",
+    "types-tsconfig"
+  ]
+}
