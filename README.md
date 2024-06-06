@@ -1,5 +1,5 @@
 # @mnrendra/types-tsconfig
-`tsconfig.json` interface extended from the official and unofficial fields.
+`tsconfig.json` interface extended from the [official](https://www.typescriptlang.org/tsconfig/) and [unofficial](https://json.schemastore.org/tsconfig.json) fields.
 
 ## Install
 ```bash

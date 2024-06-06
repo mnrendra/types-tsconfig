@@ -1,5 +1,5 @@
 import type { server } from 'typescript'
-import type { CamelCase } from '../../utils'
+import type { CamelCase } from '@mnrendra/types-camelcase'
 
 type BaseFallbackPollingKind = `${server.protocol.PollingWatchKind}`
 
