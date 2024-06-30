@@ -1,6 +1,8 @@
 import type {
   ModuleKind,
-  ModuleResolutionKind
+  ModuleResolutionKind,
+  BaseURL,
+  Paths
 } from './types'
 
 /**
@@ -36,7 +38,7 @@ export interface Modules {
    *
    * @see https://www.typescriptlang.org/tsconfig#baseUrl
    */
-  baseUrl?: null | string
+  baseUrl?: null | BaseURL
 
   /**
    * Conditions to set in addition to the resolver-specific defaults when
@@ -82,7 +84,7 @@ export interface Modules {
    *
    * @see https://www.typescriptlang.org/tsconfig#paths
    */
-  paths?: null | Record<string, null | Array<null | string>>
+  paths?: null | Paths
 
   /**
    * Enable importing .json files.

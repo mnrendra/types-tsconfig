@@ -25,6 +25,21 @@ console.log(compilerOptions)
 ```typescript
 import type {
   TSConfig // `tsconfig.json` interface extended from the official and unofficial fields.
+  // Interfaces
+  BuildOptions,
+  CompileOnSave,
+  CompilerOptions,
+  BaseURL,
+  Paths,
+  Exclude,
+  Extends,
+  Files,
+  Include,
+  MDX,
+  References,
+  TSNode,
+  WatchOptions,
+  TypeAcquisition
 } from '@mnrendra/types-tsconfig'
 ```
 

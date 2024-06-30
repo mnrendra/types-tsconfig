@@ -7,7 +7,7 @@ import type Emit from './Emit'
 import type InteropConstraints from './InteropConstraints'
 import type JavaScriptSupport from './JavaScriptSupport'
 import type LanguageAndEnvironment from './LanguageAndEnvironment'
-import type Modules from './Modules'
+import type { Modules, BaseURL, Paths } from './Modules'
 import type OutputFormatting from './OutputFormatting'
 import type Projects from './Projects'
 import type TypeAcquisition from './TypeAcquisition'
@@ -25,6 +25,8 @@ export type {
   JavaScriptSupport,
   LanguageAndEnvironment,
   Modules,
+  BaseURL,
+  Paths,
   OutputFormatting,
   Projects,
   TypeAcquisition,
